@@ -9,6 +9,11 @@ public class DiceGame {
         System.out.println("Rolling the dice...");
         System.out.println("Die 1:" + i);
         System.out.println("Die 2:" + j);
-        System.out.println(i + j);
+        System.out.println("total value" + (i + j));
+        if ((i + j) > 7) {
+            System.out.println("you win");
+        } else {
+            System.out.println("you lose");
+        }
     }
 }
